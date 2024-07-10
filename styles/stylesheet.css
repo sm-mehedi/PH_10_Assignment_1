@@ -93,16 +93,52 @@
 /* main */
     
 .section-2{
- background-color: #fafafb;
+ background-color: #eeeef1;
  margin-left: 148px;
  margin-right: 152px;
  height: 1140px;
  height: 1393px;
 
 }
-.sectiom-2-1{
-    margin: 80px 97px;
+.text-content {
+    text-indent: 20px; 
+    
+}
 
+
+
+.Learn_More{
+    background-color: transparent;
+    color: #0D1321;
+    border-color: #252a35;
+    height: 40px;
+    width: 110px;
+
+}
+.Box1{
+    margin-top: 75px;
+    background-color: #fcfcfd;
+    width: 1450px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.Box2{
+    margin-top: 75px;
+    background-color: #fcfcfd;
+    width: 1450px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.Box3{
+    margin-top: 75px;
+    background-color: #fcfcfd;
+    width: 1450px;
+    height: 300px;
+    border-radius: 20px;
+    
 }
 .My_inspiration{
     display: flex;
@@ -181,7 +217,7 @@
   
   .orange {
     background-color: #fff6f4;
-    margin-left: 273px ;
+    margin-left: 503px ;
     border: transparent;
   }
   
@@ -214,7 +250,7 @@
     display: inline-block;
     text-align: center;
     padding-right: 20px;
-    transform: translateX(507px);
+    transform: translateX(910px);
    
 }
 
@@ -227,7 +263,7 @@
     height: 350px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 270px;
+    margin-left: 510px;
     border-radius: 20px;
     background-size: cover; 
     
