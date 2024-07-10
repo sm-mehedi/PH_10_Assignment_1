@@ -91,12 +91,26 @@
 /* banner */
 
 /* main */
+    
+.section-2{
+ background-color: #fafafb;
+ margin-left: 148px;
+ margin-right: 152px;
+ height: 1140px;
+ height: 1393px;
+
+}
+.sectiom-2-1{
+    margin: 80px 97px;
+
+}
 .My_inspiration{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 90px;
   
    
 }
@@ -183,7 +197,7 @@
   
 /* main */
 /* footer */
-.footer{
+#footer{
     background-color: rgb(218, 218, 218);
     margin: 0;
     padding: 0;
@@ -202,6 +216,54 @@
     padding-right: 20px;
     transform: translateX(507px);
    
+}
+
+
+.I_need_support{
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.9)), url("../images/handshake.jpg");
+    width: 950px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 270px;
+    border-radius: 20px;
+    background-size: cover; 
+    
+}
+
+.support_headline{
+    color: #f2f6fe;
+    text-align: center;
+    transform: translateY(65px);
+
+
+}
+
+.support_paragraph{
+    transform: translateY(70px);
+    color: #f2f6fe;
+    text-align: center;
+}
+
+.input_text{
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 30px;
+    transform: translateY(80px);
+    margin-left: 130px;
+    font-size: 20px;
+
+}
+
+.Submit{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    transform: translateY(82px);
 }
 
 
