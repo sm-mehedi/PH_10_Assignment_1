@@ -1,5 +1,12 @@
 /* navbar */
 
+
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -29,9 +36,202 @@
 /* banner */
 .banner{
     height: 652px;
-    width: 1440px;
+   
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
+.group{
+    height: 190px;
+    width: 190px;
+    background-image: url('../images/Group.png');
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(-210px);
+
+
+}
+.Headline{
+    font-size: 50px;
+    text-align: center;
+    transform: translateY(-460px);
+    
+}
+.under_headline{
+    font-size: 17px;
+    text-align: center;
+    font-weight: normal;
+    transform: translateY(-470px)
+}
+
+.Contact_with_me{
+    background-color: #0D1321;
+    height: 60px;
+    border-radius: 9px;
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-490px);
+    font-size: 20px;
+    font-weight: normal;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    bottom: 40px;
+    left: 50%;
+
+}
+/* banner */
+
+/* main */
+.My_inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+   
+}
+.h3{
+    font-weight: normal;
+  }
+
+  .My_inspiration h3 {
+    font-weight: normal;
+    margin-top: 20px; 
+}
+.My_inspiration h1, .My_inspiration h3 {
+    margin: 0;
+}
+
+.video-container {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: transparent;
+    margin: 0 auto;
+    box-shadow: 0 0 0 10px black;
+    border: 2px solid black;
+    padding: 20px;
+}
+.video-container iframe {
+    width: calc(100% );
+    height: calc(100% );
+    border: none;
+    border-radius: 15px;
+}
+
+
+.float-child {
+    width: calc(33.33% - 40px); 
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    border: 2px solid red;
+    box-sizing: border-box; 
+    height: 0;
+    padding-bottom: 33.33%; 
+    vertical-align: top;
+}
+.green {
+    background-color: green;
+    color: white;
+}
+.blue {
+    background-color: blue; 
+    color: white;
+}
+
+.float-child {
+    width: 300px;
+    display: inline-flex;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    height: 310px; 
+    vertical-align: top;
+    align-self: center;
+    border-radius: 20px;
+}  
+  
+  .orange {
+    background-color: #fff6f4;
+    margin-left: 273px ;
+    border: transparent;
+  }
+  
+  .blue {
+    background-color: #f2f6fe;
+    border: transparent;
+  }
+  
+  .yellow {
+    background-color: #fffdf2;
+    border: transparent;
+  }
+  
+/* main */
+/* footer */
+.footer{
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 60px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+.icon a{
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+    transform: translateX(507px);
+   
+}
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
